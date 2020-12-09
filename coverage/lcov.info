@@ -1,5 +1,5 @@
 TN:
-SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/counter.js
+SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/uiCounter.js
 FN:1,createCounter
 FN:3,(anonymous_1)
 FN:6,(anonymous_2)
@@ -30,7 +30,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/backup/counter.js
+SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/backup/uiCounter.js
 FN:1,createCounter
 FN:7,(anonymous_1)
 FN:10,(anonymous_2)
@@ -74,7 +74,7 @@ BRF:11
 BRH:5
 end_of_record
 TN:
-SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/serverCounter/counter.js
+SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/serverCounter/uiCounter.js
 FN:5,createServerCounter
 FN:9,render
 FN:20,(anonymous_2)
@@ -114,7 +114,7 @@ BRF:4
 BRH:0
 end_of_record
 TN:
-SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/uiCounter/counter.js
+SF:/Users/eastjun/git/black-coffee/level2/js-test-basic/src/uiCounter/uiCounter.js
 FN:4,createUICounter
 FN:8,render
 FN:22,(anonymous_2)

@@ -1,34 +1,23 @@
 {
-  "name": "frontend-testing",
+  "name": "js-test-basic-step3",
   "version": "1.0.0",
-  "description": "frontend testing training",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
-    "app:uiCounter": "parcel uiCounter.html",
-    "app:serverCounter": "node ./serverCounterBundle.js",
     "cypress:open": "cypress open"
   },
-  "jest": {
-    "snapshotSerializers": [
-      "jest-serializer-html"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/next-step/js-test-basic-step3.git"
   },
   "keywords": [],
-  "author": "NHN",
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
-    "@testing-library/cypress": "^4.2.0",
-    "cypress": "^3.8.2",
-    "parcel": "^1.12.4",
-    "parcel-bundler": "^1.12.4"
+  "bugs": {
+    "url": "https://github.com/next-step/js-test-basic-step3/issues"
   },
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "core-js": "^3.6.4",
-    "jquery": "^3.3.1",
-    "prettier": "^2.2.1"
+  "homepage": "https://github.com/next-step/js-test-basic-step3#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0"
   }
 }

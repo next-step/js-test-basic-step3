@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,13 @@
   },
   "homepage": "https://github.com/next-step/js-test-basic-step3#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.11",
+    "@storybook/addon-essentials": "^6.1.11",
+    "@storybook/addon-links": "^6.1.11",
+    "@storybook/html": "^6.1.11",
+    "babel-loader": "^8.2.2",
     "cypress": "^6.1.0"
-  }
+  },
+  "dependencies": {}
 }

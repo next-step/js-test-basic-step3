@@ -1,9 +1,9 @@
-import './todoItem.css'
+import "./todoItem.css";
 
 export default {
-  title: 'Comopnents/TodoList/TodoItem',
+  title: "Comopnents/TodoList/TodoItem",
   argTypes: {
-    children: { control: 'text' },
+    children: { control: "text" },
   },
 };
 
@@ -33,9 +33,8 @@ const Template = () => {
             </div>
             <input class="edit" value="완료된 타이틀" />
           </li>
-        </ul>`
+        </ul>`;
   return template;
 };
 
 export const TodoItem = Template.bind({});
-

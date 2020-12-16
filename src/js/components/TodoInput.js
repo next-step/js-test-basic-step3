@@ -1,19 +1,19 @@
 export default function TodoInput({ $target, onAddTodo }) {
   if (!(this instanceof TodoInput)) {
-    throw new Error('TodoInput must be called with new')
+    throw new Error("TodoInput must be called with new");
   }
 
   if (!$target) {
-    throw new Error('$target must be injected')
+    throw new Error("$target must be injected");
   }
 
-  this.$target = $target
+  this.$target = $target;
 
   const onKeyPressEventHandler = (e) => {
-    if (e.key === 'Enter' && e.target.value) {
-      onAddTodo(e.target.value)
-      e.target.value = ''
+    if (e.key === "Enter" && e.target.value) {
+      onAddTodo(e.target.value);
+      e.target.value = "";
     }
-  }
-  this.$target.addEventListener('keypress', onKeyPressEventHandler)
+  };
+  this.$target.addEventListener("keypress", onKeyPressEventHandler);
 }

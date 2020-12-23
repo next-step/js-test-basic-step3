@@ -28,5 +28,7 @@
     "babel-loader": "^8.2.2",
     "cypress": "^6.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
 }
